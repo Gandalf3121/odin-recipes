@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+.main-block {
+    background-color: rgb(255, 215, 106);
+    width: 1000px;
+    margin: 20px auto;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.title {
+    background-color: rgb(255, 232, 167);
+    margin: 0px;
+}
+
+.links {
+    background-color: rgb(255, 232, 167);
+    margin: 20px auto 0 auto;
+    width: 300px;
+    padding: 10px 100px;
+}
+
+.links div {
+    background-color: white;
+    padding: 8px;
+    margin: 10px;
+}
