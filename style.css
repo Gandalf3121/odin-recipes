@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    margin: 0;
 }
 
 .main-block {
@@ -10,9 +11,21 @@ body {
     padding: 20px;
 }
 
+.main-block.recipe {
+    padding-top: 10px;
+}
+
 .title {
     background-color: rgb(255, 232, 167);
     margin: 0px;
+}
+
+.title.recipe {
+    margin: 10px 0;
+}
+
+.title.text {
+    padding: 10px;
 }
 
 .links {
@@ -26,4 +39,23 @@ body {
     background-color: white;
     padding: 8px;
     margin: 10px;
+}
+
+.white-box {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 0px;
+    width: 520px;
+}
+
+.list {
+    text-align: left;
+    display: inline-block;
+    width: 500px;
+}
+
+img {
+    width: 1000px;
+    height: auto;
+    margin: 10px 0;
 }
